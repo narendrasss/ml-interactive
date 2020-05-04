@@ -1,5 +1,28 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "JetBrains Mono", "Menlo", "Courier New", Courier, monospace;
+}
+
+.axis-text {
+  font-size: 10px;
+  text-anchor: middle;
+}
+
+.boundary {
+  cursor: pointer;
+}
+
+circle.sf {
+  fill: #3caea3;
+}
+
+circle.ny {
+  fill: #20639b;
 }
 
 .App-logo {
